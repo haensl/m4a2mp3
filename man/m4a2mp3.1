@@ -1,0 +1,42 @@
+." vim: set syn=nroff
+.TH m4a2mp3 1 "May 2019" "m4a2mp3 v1.0.0"
+
+.SH NAME
+m4a2mp3 - Convert .m4a files to MP3.
+
+.SH SYNOPSIS
+m4a2mp3 [-hv]
+        [\fI\,directory\fR]
+
+.SH DESCRIPTION
+\fI\,m4a2mp3\fR converts .m4a files to MP3.
+
+.SH PREREQUISITES
+\fI\,m4a2mp3\fR requires the following programs:
+.RS
+.IP ffmpeg .2i
+.RE
+
+Please make sure they are installed on your system.
+
+.SH OPTIONS
+-h, --help
+.RS
+display usage information.
+.RE
+
+-v, --version
+.RS
+display version information.
+.RE
+
+.SH ARGUMENTS
+\fI\,directory\fR
+.RS
+specify a directory in which to search for .m4a files. Defaults to the current directory.
+
+.SH BUGS
+Report bugs to <https://gihub.com/haensl/m4a2mp3/issues>
+
+.SH AUTHOR
+Written by Hans-Peter Dietz <h.p.dietz@gmail.com>
